@@ -4,8 +4,8 @@ This microservice is responsible for connecting to BigQuery using SQL through an
 
 ### How do I get set up? ###
 
-* git clone https://github.com/jorbriib/nodejs-bigquery-connect.git
-* cd nodejs-bigquery-connect && npm install
+* git clone https://github.com/jorbriib/nodejs-bigquery-connect-api-rest.git
+* cd nodejs-bigquery-connect-api-rest && npm install
 * Rename config-default.json to config.json
 * Rename client_secret-default.json to client_secret.json
 * Set your credentials in config.json
