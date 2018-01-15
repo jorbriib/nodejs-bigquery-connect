@@ -1,0 +1,10 @@
+{
+  "development": {
+    "SERVERURL": "/bigquery",
+    "PORT": 6124
+  },
+  "production": {
+    "SERVERURL": "/bigquery",
+    "PORT": 6124
+  }
+}
