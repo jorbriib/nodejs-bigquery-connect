@@ -1,11 +1,11 @@
 # README #
-
-This repository is responsible for connecting to BigQuery using SQL
+ 
+This microservice is responsible for connecting to BigQuery using SQL through an HTTP GET call. So, you don't need to implement the BigQuery connector for each application you need to connect to BigQuery.
 
 ### How do I get set up? ###
 
 * git clone https://github.com/jorbriib/nodejs-bigquery-connect.git
-* cd bigquery-service && npm install
+* cd nodejs-bigquery-connect && npm install
 * Rename config-default.json to config.json
 * Rename client_secret-default.json to client_secret.json
 * Set your credentials in config.json
@@ -16,10 +16,18 @@ This repository is responsible for connecting to BigQuery using SQL
 
 * Call the API via GET, using the Server URL and PORT of your config.json
     * Required params
-        * query: SQL statement of BigQuery  
+        * query: SQL statement of BigQuery
+        * Example: http(s)://yourIP/bigquery?q=SELECT id FROM hotels
     * Ouput 
         * URL with the report in CSV format
+    
 
 ### Checking problems ###
 
 * Check log in log/info.log
+* Be careful with the cost of BigQuery
+
+### Next steps ###
+* Send the file directly
+* Delete automatically downloaded files
+* ...
