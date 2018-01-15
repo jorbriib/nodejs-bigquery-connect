@@ -4,7 +4,7 @@ This repository is responsible for connecting to BigQuery using SQL
 
 ### How do I get set up? ###
 
-* git clone https://bitbucket.org/sem_magic/bigquery-service.git
+* git clone --repository--
 * cd bigquery-service && npm install
 * Rename config-default.json to config.json
 * Rename client_secret-default.json to client_secret.json
