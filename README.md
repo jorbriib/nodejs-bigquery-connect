@@ -1,6 +1,6 @@
 # README #
  
-This microservice is responsible for connecting to BigQuery using SQL through an HTTP GET call. So, you don't need to implement the BigQuery connector for each application you need to connect to BigQuery.
+This microservice is responsible for connecting to BigQuery using SQL through an HTTP GET call. So, you don't need to implement the BigQuery connector for each application that connects with BigQuery.
 
 ### How do I get set up? ###
 
