@@ -4,7 +4,7 @@ This repository is responsible for connecting to BigQuery using SQL
 
 ### How do I get set up? ###
 
-* git clone --repository--
+* git clone https://github.com/jorbriib/nodejs-bigquery-connect.git
 * cd bigquery-service && npm install
 * Rename config-default.json to config.json
 * Rename client_secret-default.json to client_secret.json
