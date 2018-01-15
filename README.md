@@ -17,7 +17,7 @@ This microservice is responsible for connecting to BigQuery using SQL through an
 * Call the API via GET, using the Server URL and PORT of your config.json
     * Required params
         * query: SQL statement of BigQuery
-        * Example: http(s)://yourIP/bigquery?q=SELECT id FROM hotels
+        * Example: http(s)://yourIP:PORT/bigquery?q=SELECT id FROM hotels
     * Ouput 
         * URL with the report in CSV format
     
